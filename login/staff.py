@@ -57,7 +57,7 @@ bot = [clientMID]
 #=====================================================================
 #=====================================================================
 loop = asyncio.get_event_loop()
-admin =["u79a6284e9ef959e88784874c6b662c9a"]
+admin =["uc5fe9ad700605943049cb629d6416fc2"]
 #ABC = [haha,hihi,ckck]
 botStart = time.time()
 msg_image={}
@@ -2644,7 +2644,7 @@ async def clientBot(op):
                                 days = (str(future - today))
                                 comma = days.find(",")
                                 days = days[:comma]
-                                khietag = "u79a6284e9ef959e88784874c6b662c9a"
+                                khietag = "uc5fe9ad700605943049cb629d6416fc2"
                                 h = client.getContact(clientMID)
                                 groups = client.getGroupIdsJoined()
                                 contactlist = client.getAllContactIds()
