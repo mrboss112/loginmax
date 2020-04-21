@@ -18,7 +18,7 @@ from io import StringIO
 from multiprocessing import Pool
 from googletrans import Translator
 from urllib.parse import urlencode
-from wikiapi import WikiApi
+#from wikiapi import WikiApi
 from tmp.MySplit import *
 from zalgo import zalgoname
 from random import randint
