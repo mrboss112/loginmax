@@ -50,8 +50,8 @@ khieMID = khie.getProfile().mid
 #=====================================================================
 #=====================================================================
 loop = asyncio.get_event_loop()
-admin =["u79a6284e9ef959e88784874c6b662c9a"]
-myAdmin = ["u79a6284e9ef959e88784874c6b662c9a"]
+admin =["uc5fe9ad700605943049cb629d6416fc2"]
+myAdmin = ["uc5fe9ad700605943049cb629d6416fc2"]
 botStart = time.time()
 msg_dict = {}
 temp_flood = {}
@@ -646,7 +646,7 @@ async def khieBot(op):
                         sendTemplate(to, data)
 #==========================================
                     elif cmd.startswith("#down "):
-                        if msg._from in "u79a6284e9ef959e88784874c6b662c9a":
+                        if msg._from in "uc5fe9ad700605943049cb629d6416fc2":
                            number = removeCmd("#down", text)
                            if len(number) > 0:
                                if number.isdigit():
